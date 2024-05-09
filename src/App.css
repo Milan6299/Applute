@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    border: 2px solid rgb(196, 196, 196);
+    /* -webkit-transition: 1s; */
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+    
+}
+  input:focus {
+    outline: none;
+    
+    transition: ease all .5s;
+  }
+
+  .signup:hover{
+    background: rgb(74, 194, 50);
+  }
+
+.signup:hover{
+    background: rgb(102,255,70);
+    background: linear-gradient(90deg, rgba(102,255,70,1) 0%, rgba(8,198,30,1) 35%, rgba(0,255,158,1) 100%)
+}
